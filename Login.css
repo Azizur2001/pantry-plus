@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Navbar Styles */
+.navbar {
+  width: 100%;
+  background-color: #0288d1;
+  position: fixed;
+  padding: 0.1px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar-container {
+  width: 90%;
+  height: 5px;
+  max-width: 2100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Space between the logo and links */
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 0.1px;
+  margin-right: -40px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #424242;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  color: white;
+  text-align: center;
+}
+
+.form-container h1 {
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.form-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: #0288d1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: fit-content; 
+  margin: 0 auto; 
+}
+
+.form-container button:hover {
+  background-color: #0277bd;
+}
+
+.signup-link {
+  margin-top: 15px;
+  color: #0288d1;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+
+.welcome-message {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 44px;
+  color: #333;
+}
